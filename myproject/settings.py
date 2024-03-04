@@ -78,7 +78,8 @@ INSTALLED_APPS = [
     'djangocms_frontend.contrib.navigation',
     'djangocms_frontend.contrib.tabs',
     'djangocms_frontend.contrib.utilities',
-
+    'polls',
+    'polls_cms_integration',
 ]
 
 MIDDLEWARE = [
@@ -102,7 +103,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+            BASE_DIR / "templates",
             os.path.join(BASE_DIR, "myproject", "templates"),
+
         ],
         'APP_DIRS': True,
         'OPTIONS': {
