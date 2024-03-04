@@ -1,29 +1,6 @@
-# Django template for a new django CMS 4 project
 
-A Django template for a typical django CMS installation with no 
-special bells or whistles. It is supposed as a starting point 
-for new projects.
+# Django CMS Tutorial
 
-If you prefer a different set of template settings, feel free to 
-create your own templates by cloning this repo.
+The tutorial requires you to install a pre-built "polls" application but I found this didn't work due to deprecated code so instead I copied their polls app but replaced a lot of the code with my own from the django tutorial.
 
-To install django CMS 4 by hand type the following commands:
-
-1. Create virtual environment and activate it
-   ```
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-2. Install Django, django CMS and other required packages
-   ```
-   pip install django-cms
-   ```
-3. Create project `<<project_name>>` using this template
-   ```
-   djangocms <<project_name>>
-   cd <<project_name>>
-   ```
-4. Run testserver
-   ```
-   ./manage.py runserver
-   ```
+As a result in order to run this app you will need to install *[my polls app](https://github.com/Leyght811/django-polls-master)*
